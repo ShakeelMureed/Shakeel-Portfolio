@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">WordPress taxi booking workflow</title><desc id="desc">A responsive booking form, taxi icon and SMS notification flow.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1e1b4b"/><stop offset="1" stop-color="#6d28d9"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="18" stdDeviation="20" flood-opacity=".3"/></filter></defs>
+  <rect width="1200" height="720" rx="44" fill="url(#bg)"/><circle cx="1090" cy="90" r="230" fill="#c4b5fd" opacity=".13"/>
+  <text x="72" y="86" fill="#ddd6fe" font-family="Arial" font-size="24" font-weight="700" letter-spacing="3">WORDPRESS · CUSTOM PLUGIN</text><text x="72" y="140" fill="#fff" font-family="Arial" font-size="42" font-weight="700">Booking &amp; notification flow</text>
+  <g filter="url(#s)"><rect x="72" y="188" width="1056" height="458" rx="28" fill="#fafafa"/></g>
+  <rect x="118" y="240" width="470" height="356" rx="22" fill="#fff" stroke="#e4e4e7" stroke-width="2"/><text x="154" y="292" fill="#312e81" font-family="Arial" font-size="24" font-weight="700">Book your ride</text>
+  <g fill="#f4f4f5"><rect x="154" y="324" width="398" height="52" rx="10"/><rect x="154" y="392" width="190" height="52" rx="10"/><rect x="362" y="392" width="190" height="52" rx="10"/></g><rect x="154" y="474" width="218" height="58" rx="14" fill="#7c3aed"/><text x="196" y="511" fill="#fff" font-family="Arial" font-size="18" font-weight="700">CHECK AVAILABILITY</text>
+  <g transform="translate(690 292)"><path d="M24 122 65 47c9-17 26-27 45-27h236c19 0 36 10 45 27l41 75 36 16v112H0V138Z" fill="#facc15"/><path d="m96 67-28 55h296l-28-55Z" fill="#c4b5fd"/><circle cx="88" cy="250" r="42" fill="#27272a"/><circle cx="380" cy="250" r="42" fill="#27272a"/><rect x="190" y="0" width="88" height="30" rx="8" fill="#fef3c7"/><text x="208" y="22" fill="#713f12" font-family="Arial" font-size="16" font-weight="700">TAXI</text></g>
+  <rect x="708" y="552" width="350" height="50" rx="25" fill="#ede9fe"/><text x="746" y="584" fill="#5b21b6" font-family="Arial" font-size="18" font-weight="700">Booking → SMS confirmation</text>
+</svg>

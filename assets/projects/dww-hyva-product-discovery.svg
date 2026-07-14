@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Hyva product discovery and tire fitment</title><desc id="desc">A product listing dashboard with tire filters and a wheel illustration.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#111827"/><stop offset="1" stop-color="#334155"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="18" stdDeviation="20" flood-opacity=".3"/></filter></defs>
+  <rect width="1200" height="720" rx="44" fill="url(#bg)"/><path d="M0 610C260 470 390 740 690 570s370-40 510-110v260H0Z" fill="#22d3ee" opacity=".08"/>
+  <text x="70" y="86" fill="#67e8f9" font-family="Arial" font-size="24" font-weight="700" letter-spacing="3">MAGENTO 2.4.8 · HYVÄ</text><text x="70" y="140" fill="#fff" font-family="Arial" font-size="42" font-weight="700">Product discovery &amp; upgrade</text>
+  <g filter="url(#s)"><rect x="70" y="188" width="1060" height="458" rx="28" fill="#f8fafc"/><rect x="70" y="188" width="1060" height="70" rx="28" fill="#fff"/><rect x="70" y="232" width="1060" height="26" fill="#fff"/></g>
+  <circle cx="110" cy="222" r="9" fill="#fb7185"/><circle cx="140" cy="222" r="9" fill="#fbbf24"/><circle cx="170" cy="222" r="9" fill="#34d399"/><rect x="216" y="209" width="620" height="28" rx="14" fill="#e2e8f0"/>
+  <rect x="110" y="292" width="250" height="314" rx="18" fill="#e2e8f0"/><text x="138" y="336" fill="#0f172a" font-family="Arial" font-size="20" font-weight="700">FITMENT FILTERS</text>
+  <g fill="#fff"><rect x="138" y="360" width="194" height="46" rx="10"/><rect x="138" y="422" width="194" height="46" rx="10"/><rect x="138" y="484" width="194" height="46" rx="10"/></g>
+  <g fill="#64748b" font-family="Arial" font-size="16"><text x="156" y="390">305 / 70 / 16</text><text x="156" y="452">Mud Terrain</text><text x="156" y="514">In stock</text></g>
+  <rect x="398" y="292" width="692" height="314" rx="18" fill="#fff" stroke="#e2e8f0" stroke-width="2"/>
+  <g transform="translate(470 348)"><circle cx="116" cy="116" r="104" fill="#0f172a"/><circle cx="116" cy="116" r="72" fill="#475569"/><circle cx="116" cy="116" r="32" fill="#cbd5e1"/><g stroke="#cbd5e1" stroke-width="13"><path d="M116 48v136M48 116h136M68 68l96 96M164 68l-96 96"/></g><circle cx="116" cy="116" r="21" fill="#334155"/></g>
+  <text x="750" y="362" fill="#0891b2" font-family="Arial" font-size="18" font-weight="700">ROUTE OWNERSHIP FIXED</text><text x="750" y="405" fill="#0f172a" font-family="Arial" font-size="25" font-weight="700">Tire listing restored</text><text x="750" y="442" fill="#64748b" font-family="Arial" font-size="17">Custom layers · EAV · SQL</text>
+  <rect x="750" y="482" width="282" height="54" rx="12" fill="#ecfeff"/><text x="776" y="516" fill="#0e7490" font-family="Arial" font-size="17" font-weight="700">Page Builder modernized</text>
+</svg>
