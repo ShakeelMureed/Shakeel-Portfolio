@@ -9,6 +9,7 @@ function smp_theme_defaults(): array {
         'hero_lead' => 'I’m Shakeel Mureed, a Senior Magento 2 and e-commerce developer helping teams build custom modules, modernize Hyvä storefronts and maintain business-critical multi-store platforms.',
         'hero_primary_label' => 'View My Work', 'hero_secondary_label' => 'Download Resume',
         'proof_one' => '13+ years web & frontend', 'proof_two' => '8+ years Magento 2', 'proof_three' => 'Lahore · Available remotely',
+        'skills_list' => 'Magento 2,Hyvä,PHP,MySQL,Alpine.js,Tailwind CSS,REST APIs,WordPress,WooCommerce,Linux,Git,Jira',
         'about_heading' => 'Magento engineering grounded in frontend craftsmanship.',
         'about_lead' => 'I translate complex commerce requirements into maintainable, tested solutions.',
         'about_body' => 'My work covers Magento 2 custom modules, Hyvä storefronts, PHP, MySQL, REST APIs, checkout, customer accounts, multi-store architecture and production troubleshooting.\n\nI can trace a storefront problem through templates, services, collections and data, implement the right change, and validate the complete customer journey. I also bring extensive WordPress and WooCommerce experience to content-driven and integration-heavy projects.',

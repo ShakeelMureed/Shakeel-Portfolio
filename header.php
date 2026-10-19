@@ -1,7 +1,7 @@
 <?php if (!defined('ABSPATH')) { exit; } ?><!doctype html>
 <html <?php language_attributes(); ?>><head><meta charset="<?php bloginfo('charset'); ?>"><meta name="viewport" content="width=device-width,initial-scale=1"><?php wp_head(); ?></head>
 <body <?php body_class(); ?>><?php wp_body_open(); ?>
-<header class="site-header"><div class="container nav-wrap">
+<header class="site-header"><span class="page-progress" aria-hidden="true"></span><div class="container nav-wrap">
   <a class="brand" href="<?php echo esc_url(home_url('/')); ?>" aria-label="<?php echo esc_attr(get_bloginfo('name')); ?> home">
     <?php if (has_custom_logo()) { the_custom_logo(); } else { ?><span class="brand-mark">SM</span><?php } ?><span>Shakeel <strong>Mureed</strong></span>
   </a>

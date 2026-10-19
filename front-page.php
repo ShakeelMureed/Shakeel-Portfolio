@@ -1,15 +1,15 @@
 <?php get_header();
 $portrait_id = absint(get_theme_mod('hero_portrait'));
 $portrait = $portrait_id ? wp_get_attachment_image_url($portrait_id, 'large') : smp_asset('profile/shakeel-mureed-portrait.png');
-$skills = ['Magento 2','Hyvä','PHP','MySQL','Alpine.js','Tailwind CSS','REST APIs','WordPress','WooCommerce','Linux','Git','Jira'];
+$skills = array_filter(array_map('trim', explode(',', smp_mod('skills_list'))));
 ?>
 <main id="home">
 <section class="hero"><div class="container hero-grid"><div class="hero-copy reveal">
-  <p class="eyebrow"><?php echo esc_html(smp_mod('hero_eyebrow')); ?></p><h1><?php $title=esc_html(smp_mod('hero_title'));$highlight=esc_html(smp_mod('hero_highlight'));echo $highlight ? str_replace($highlight,'<span>'.$highlight.'</span>',$title) : $title; ?></h1>
+  <p class="eyebrow"><span class="availability-dot" aria-hidden="true"></span><?php echo esc_html(smp_mod('hero_eyebrow')); ?></p><h1 class="hero-title"><?php $title=esc_html(smp_mod('hero_title'));$highlight=esc_html(smp_mod('hero_highlight'));echo $highlight ? str_replace($highlight,'<span class="hero-highlight">'.$highlight.'</span>',$title) : $title; ?></h1>
   <p class="lead"><?php echo esc_html(smp_mod('hero_lead')); ?></p>
   <div class="actions"><a class="button" href="#portfolio"><?php echo esc_html(smp_mod('hero_primary_label')); ?></a><a class="button button-secondary" href="#resumes"><?php echo esc_html(smp_mod('hero_secondary_label')); ?></a></div>
   <div class="proof"><span><strong><?php echo esc_html(smp_mod('proof_one')); ?></strong></span><span><strong><?php echo esc_html(smp_mod('proof_two')); ?></strong></span><span><strong><?php echo esc_html(smp_mod('proof_three')); ?></strong></span></div>
-</div><div class="hero-visual reveal"><div class="portrait-frame"><img class="hero-portrait" src="<?php echo esc_url($portrait); ?>" alt="Shakeel Mureed"><div class="portrait-caption"><small>Senior Magento 2 &amp; E-commerce Developer</small><strong>Shakeel Mureed</strong></div></div><div class="tech-badge"><span>Magento 2</span><span>Hyvä</span><span>WordPress</span></div><div class="floating-note note-one"><small>Experience</small><strong>8+ years Magento 2</strong></div><div class="floating-note note-two"><small>Location</small><strong>Lahore · Remote</strong></div></div></div></section>
+</div><div class="hero-visual reveal"><div class="portrait-frame"><img class="hero-portrait" src="<?php echo esc_url($portrait); ?>" alt="Shakeel Mureed"><div class="portrait-caption"><small>Senior Magento 2 &amp; E-commerce Developer</small><strong>Shakeel Mureed</strong></div></div><div class="tech-badge"><span>Magento 2</span><span>Hyvä</span><span>WordPress</span></div><div class="floating-note note-one"><small>Experience</small><strong>8+ years Magento 2</strong></div><div class="floating-note note-two"><small>Location</small><strong>Lahore · Remote</strong></div></div></div><canvas class="hero-motion-canvas" aria-hidden="true"></canvas><a class="hero-scroll" href="#about" aria-label="Scroll to about section"><span></span>Scroll to explore</a></section>
 
 <section id="about" class="section"><div class="container split"><div class="section-intro reveal"><p class="eyebrow">About</p><h2><?php echo esc_html(smp_mod('about_heading')); ?></h2></div><div class="about-copy reveal"><p class="lead"><?php echo esc_html(smp_mod('about_lead')); ?></p><?php echo wp_kses_post(wpautop(smp_mod('about_body'))); ?><a class="text-link" href="#experience">Explore my experience <span>→</span></a></div></div></section>
 

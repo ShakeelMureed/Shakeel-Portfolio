@@ -7,7 +7,7 @@
 3. The theme automatically creates the included Projects, Services, Magento Modules and Experience items once. Existing content is never overwritten.
 4. Open **Appearance → Customize → Portfolio Content** to edit the hero, About text, headings, contact information, portrait and footer.
 
-Version 1.1 adds the EGO Shoes multi-store campaign case study and refreshed Magento/general résumé PDFs. Its bundled visual is an explanatory workflow diagram; the current third-party storefront is not represented as Shakeel's implementation.
+Version 1.3 adds a timeline-driven canvas motion scene to the hero, reduced-motion handling and a pointer-responsive light field. Version 1.2 added the editorial visual identity and editable skills list. Version 1.1 added the EGO Shoes multi-store campaign case study and refreshed Magento/general résumé PDFs. Its bundled visual is an explanatory workflow diagram; the current third-party storefront is not represented as Shakeel's implementation.
 
 ## Editing content
 
@@ -16,7 +16,10 @@ Version 1.1 adds the EGO Shoes multi-store campaign case study and refreshed Mag
 - **Magento Modules:** maintain the Julefabrikken engineering section.
 - **Experience:** maintain job history and descriptions.
 - **Appearance → Customize:** edit global section headings, hero, proof points, About, contact and footer.
+- **Appearance → Customize → Portfolio Content → Section Headings → Skills List:** edit the comma-separated skill chips shown in Experience.
 - **Media → Library:** upload a new portrait or project image; select it through the Customizer or Featured Image control.
+
+Project cards, services, Magento modules and experience items remain regular WordPress content types, so new portfolio entries can be added and reordered in the dashboard. Motion uses CSS and the theme's existing small script; it respects the visitor's reduced-motion preference and does not add a third-party animation dependency.
 
 Use the **Order** field in the Page Attributes panel to reorder repeatable cards. Lower values appear first.
 
